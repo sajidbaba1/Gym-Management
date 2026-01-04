@@ -1,0 +1,25 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend/run_log.txt
+backend/run_fail.log
